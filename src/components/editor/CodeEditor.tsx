@@ -67,7 +67,7 @@ export function CodeEditor() {
       value={content}
       onChange={handleEditorChange}
       onMount={handleEditorDidMount}
-      theme="vs-dark"
+      theme="vs"
       options={{
         minimap: { enabled: false },
         fontSize: 14,
